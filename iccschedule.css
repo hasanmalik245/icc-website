@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(green, teal);
+    background-repeat: no-repeat;
+}
+
+.main{
+    width:700px;
+    border-radius: 5%;
+
+}
+
+.top4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.particular {
+    background: lightgreen;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+h4 {
+    margin-top: 0px;
+}
+
+.seriesimg1, .seriesimg2, .seriesimg3, .seriesimg4 { background-size: cover;
+height: 300px;
+width: 400px;
+border: 1px solid whitesmoke; }
+
+.seriesimg1{
+    background-image: url("https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/322900/322991.4.jpg");
+}
+.seriesimg1:hover {
+    background-image: url("images/Baylor\ Bears\ Baylorfootball\ GIF\ by\ Baylor\ Athletics.gif");
+}
+
+.seriesimg2{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7sBZa0EYagwbtNw3FORpBetrpQSO_Aonv-Q&s");
+}
+.seriesimg2:hover {
+    background-image: url("images/hack.webp.gif");
+}
+
+.seriesimg3 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzYlL6Ls-2Zty8gBbFqQUBPVFzVWYn7eGMJg&s");
+}
+.seriesimg3:hover {
+    border-radius: 50%;
+}
+
+
+.seriesimg4{
+    background: url("images/Outer\ Space\ GIF\ by\ BBC.gif");
+}
+.seriesimg4:hover {
+    background: linear-gradient(blue, green);
+}
+
+.series {
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h5 {
+    margin-top: 40px;
+    border-bottom: 1px solid black;
+}
+
+a{
+    font-style: italic;
+    color: #222222;
+}

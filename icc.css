@@ -1,0 +1,119 @@
+#hero{
+    background-image: url(images/grass.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding: 20px 20px;
+    opacity:0.9;
+}
+
+body {
+    margin: 0;
+}
+
+#welcome {
+    color:whitesmoke;
+    text-align: center;
+    margin-top: 15px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+button{
+    margin: 80px auto 0px auto;
+    display: block;
+    padding: 15px 10px;
+    color: whitesmoke;
+    background-color:cadetblue;
+    border-radius: 5px;
+    border: none;
+    font-family: "Fredoka", sans-serif;
+    font-size: large;
+    font-weight: 650;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+@font-face {
+    src: url(MusticaPro-SemiBold.otf);
+    font-family: MusticaProSB;
+}
+
+.flexdiv {
+    margin:25px;
+    border: 1px solid whitesmoke;
+}
+
+.iccname{
+    color: #BBDEF0;
+}
+
+.underline {
+    border-bottom: 2px solid whitesmoke;
+}
+
+
+#icclogo{
+    width:100px;
+    display: block;
+    margin: 10px auto 0px auto;
+}
+
+.heading {
+    color:#BBDEF0;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-size:x-large;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.flextest{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.widthcontrol {
+    width:150px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #222222;
+    display: block;
+    margin: auto;
+}
+
+.cookies{
+    padding: 6px 0px;
+    background-color: #BBDEF0;
+}
+
+p {
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+}
+
+p1, p2, p3 {
+    font-family: "Fredoka", sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+a {
+    border: none;
+}
